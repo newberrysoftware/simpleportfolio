@@ -42,10 +42,11 @@
         visibility: collapse;
     }
     .youtube-text h1{
-        font-size: 25px;
+        margin: 2em 1em 0 1em;
+        font-size: 22px;
     }
     .youtube-text p{
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 /*--- Youtube end ---*/
