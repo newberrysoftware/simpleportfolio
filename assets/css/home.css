@@ -32,21 +32,11 @@
 
 @media screen and (max-width: 768px) {
     .youtube{
-        top: 65%;
-        width: 80%;
+        top: 80%;
+        left: 0;
     }
     .youtube-text{
-        width: 80%;
-    }
-    .youtube iframe{
-        visibility: collapse;
-    }
-    .youtube-text h1{
-        margin: 2em 1em 0 1em;
-        font-size: 22px;
-    }
-    .youtube-text p{
-        font-size: 11px;
+        visibility: hidden;
     }
 }
 /*--- Youtube end ---*/

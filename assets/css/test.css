@@ -7,7 +7,7 @@
   width: 20%;
 }
 
-.cardBox:hover .card {
+.cardBox:hover .card,  .cardBox:active .card{
   transform: rotateY( 180deg);
 }
 .cardBox img{
@@ -63,7 +63,7 @@
   transition: all 0.2s ease 0s;
 }
 
-.card .back a:hover {
+.card .back a:hover, .card .back a:active {
   background: #fff;
   color: #333;
   text-shadow: 0 0 1px #333;

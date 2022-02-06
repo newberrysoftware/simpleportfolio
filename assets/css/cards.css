@@ -51,11 +51,11 @@
 
 /*--- Card flip start ---*/
 
-.card:hover .card-front {
+.card:hover .card-front, .card:active .card-front{
     transform: rotateY(180deg);
 }
 
-.card:hover .card-back {
+.card:hover .card-back, .card:active .card-back {
     opacity: 1;
     transform: rotateY(0deg);
 }

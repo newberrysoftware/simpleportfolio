@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active {
     opacity: .5;
 }
 
@@ -40,7 +40,7 @@ hr {
     cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover, .hero-btn:active {
     background: #5C7CFF;
     transition: 0.5s;
 }
