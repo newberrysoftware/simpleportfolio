@@ -209,7 +209,7 @@ nav ul li a {
 .fancy-button:hover::before {
 	left: 100%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .fancy-button{
         --width: 100px;
     }

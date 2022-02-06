@@ -32,7 +32,11 @@
 
 @media screen and (max-width: 768px) {
     .youtube{
-        padding-top: 20em;
+        top: 65%;
+        width: 80%;
+    }
+    .youtube-text{
+        width: 80%;
     }
     .youtube iframe{
         visibility: collapse;
