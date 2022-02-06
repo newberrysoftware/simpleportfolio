@@ -1,0 +1,48 @@
+/*----- About me content start -----*/
+
+article {
+    text-align: center;
+    margin: 2em;
+    background: #15106B;
+    border-radius: 10px;
+    padding: 2em 1em;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+article:hover {
+    box-shadow: 0.5em 0.5em #335CFF;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me-r {
+    margin-top: 5%;
+}
+
+.about-me h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24;
+    margin: 10px 0;
+}
+
+.about-me p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+@media(max-width: 700px) {
+    .story story-Row {
+        flex-direction: column;
+    }
+}
+
+
+/*----- About me content end -----*/

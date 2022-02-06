@@ -1,0 +1,29 @@
+/*----- YOUTUBE VIDEO SECTION ---*/
+.youtube{
+    padding-top: 5%;
+    display: flex;
+    width: 75%;
+    height: auto;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.youtube-text{
+   width: 60%; 
+}
+.youtube-text h1{
+    margin: 0px 50px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 3px 3px black;
+}
+.youtube-text p{
+    margin: 20px 0px;
+    width: 90%;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 3px 3px black;
+}
