@@ -1,5 +1,4 @@
 
-
 /*--- Youtube start ---*/
 .youtube{
     margin: 2em;
@@ -32,11 +31,6 @@
 
 @media screen and (max-width: 768px) {
     .youtube{
-        top: 80%;
-        left: 0;
-    }
-    .youtube-text{
-        visibility: hidden;
-    }
+visibility: hidden;
 }
 /*--- Youtube end ---*/
