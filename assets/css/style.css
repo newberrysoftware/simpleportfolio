@@ -1,6 +1,4 @@
-@media screen and (max-width: 768px) {
-
-}
+@media screen and (max-width: 768px) {}
 
 * {
     /*--- overflow-x: auto; ---*/
@@ -14,7 +12,8 @@ a {
     text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     opacity: .5;
 }
 
@@ -40,21 +39,27 @@ hr {
     cursor: pointer;
 }
 
-.hero-btn:hover, .hero-btn:active {
+.hero-btn:hover,
+.hero-btn:active {
     background: #5C7CFF;
     transition: 0.5s;
 }
+
 @media screen and (max-width: 768px) {
     .hero-btn {
         font-size: 12px;
     }
 }
 
+.bullet {
+    visibility: hidden;
+}
 
-
-
-
-
+@media screen and (max-width: 768px) {
+    .bullet {
+        visibility: visible;
+    }
+}
 
 
 /*--- Top nav start ---*/
@@ -122,28 +127,20 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
-@media screen and (max-width: 768px){
-    nav ul li{
+
+@media screen and (max-width: 768px) {
+    nav ul li {
         display: block;
+        padding: .5em 5em;
+        margin: .5em;
     }
-    nav{
+    nav {
         width: 20em;
-        
         justify-content: center;
         text-align: center;
-        }
+    }
 }
 
-
-
-/*--- TEST ---*/
-/*--- TEST ---*/
-/*--- FOOTER ---*/
-
-/*----- Nav Bar Mobile Menu -----*/
-
-/*--- TEST ---*/
-/*--- TEST ---*/
 
 /*--- Top nav end ---*/
 
@@ -161,60 +158,66 @@ nav ul li a {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(51, 92, 255, 1) 100%);
 }
 
+
 /*--- Header end ---*/
 
 
 /*--- Hero button from my sr design website start ---*/
+
 .fancy-button {
     margin: 1em 0 0 3em;
-	display: inline-block;
+    display: inline-block;
     text-decoration: none;
-	background: linear-gradient(to right, #5C7CFF, #5C7CFF);
-	color: white;
-	--width: 150px;
-	--height: calc(var(--width) / 3);
-	width: var(--width);
-	height: var(--height);
-	text-align: center;
-	line-height: var(--height);
-	font-size: calc(var(--height) / 2.5);
-	font-family: sans-serif;
-	letter-spacing: 0.2em;
-	border: 1px solid #ffffff;
-	border-radius: 2em;
-	transform: perspective(500px) rotateY(-15deg);
-	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
-	transition: 0.5s;
-	position: relative;
-	overflow: hidden;
+    background: linear-gradient(to right, #5C7CFF, #5C7CFF);
+    color: white;
+    --width: 150px;
+    --height: calc(var(--width) / 3);
+    width: var(--width);
+    height: var(--height);
+    text-align: center;
+    line-height: var(--height);
+    font-size: calc(var(--height) / 2.5);
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+    border: 1px solid #ffffff;
+    border-radius: 2em;
+    transform: perspective(500px) rotateY(-15deg);
+    text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
 }
 
 .fancy-button:hover {
-	transform: perspective(500px) rotateY(15deg);
-	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
-	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+    transform: perspective(500px) rotateY(15deg);
+    text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .fancy-button::before {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to right, transparent, white, transparent);
-	left: -100%;
-	transition: 0.5s;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, white, transparent);
+    left: -100%;
+    transition: 0.5s;
 }
 
 .fancy-button:hover::before {
-	left: 100%;
+    left: 100%;
 }
+
 @media screen and (max-width: 768px) {
-    .fancy-button{
+    .fancy-button {
         --width: 100px;
     }
 }
+
+
 /*--- Hero button from my sr design website end ---*/
+
 
 /*--- Bottom nav start ---*/
 
@@ -260,15 +263,17 @@ footer .main-footer ul li a,
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px){ 
-    footer ul li{
+@media screen and (max-width: 768px) {
+    footer ul li {
         display: block;
     }
-    footer{
+    footer {
         justify-content: center;
         text-align: center;
-        }
+    }
 }
+
+
 /*--- Footer end ---*/
 
 
@@ -280,10 +285,13 @@ footer .main-footer ul li a,
     text-align: center;
     color: #ffffff;
 }
+
 .copyright a {
     text-decoration: none;
     color: #ffffff;
 }
+
+
 /*--- Copyright end ---*/
 
 

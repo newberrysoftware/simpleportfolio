@@ -1,11 +1,15 @@
-table{
+table {
     margin: 2em;
 }
-th, td{
+
+th,
+td {
     padding: 2em;
     border: 1px solid black;
     vertical-align: center;
     height: 20em;
 }
-tr:nth-child(even) {background-color: #d6d6d6;}
 
+tr:nth-child(even) {
+    background-color: #d6d6d6;
+}

@@ -10,7 +10,8 @@ article {
     transition: 0.5s;
 }
 
-article:hover, article:active {
+article:hover,
+article:active {
     box-shadow: 0.5em 0.5em #335CFF;
 }
 
